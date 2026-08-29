@@ -9,6 +9,9 @@ Format: version sections are listed newest first.
 
 ## [Unreleased]
 
+### Fixed
+- **Copy results tok/s** — clipboard text now uses one decimal like the decode-bench table (`31.5` not `31`), and TTFT uses the same mean as the table. ([#57](https://github.com/MiaAI-Lab/sparkDash/issues/57))
+
 ---
 
 ## [1.8.5] — 2026-08-28
