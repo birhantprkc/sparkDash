@@ -9,6 +9,9 @@ Format: version sections are listed newest first.
 
 ## [Unreleased]
 
+### Added
+- **DGX Spark CPU temperature** — remote Sparks collect CPU temp over SSH with the same hwmon allowlist as hosts (`acpitz` / `coretemp` / `k10temp` / `zenpower`; NVMe / CX7 filtered out). Overview shows a CPU bar and Spark pages show a CPU row on the GPU panel when the reading is above 0°C.
+
 ---
 
 ## [1.8.5] — 2026-08-28
