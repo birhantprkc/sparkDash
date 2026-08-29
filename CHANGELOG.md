@@ -9,8 +9,13 @@ Format: version sections are listed newest first.
 
 ## [Unreleased]
 
+<<<<<<< HEAD
 ### Added
 - **DGX Spark CPU temperature** — remote Sparks collect CPU temp over SSH with the same hwmon allowlist as hosts (`acpitz` / `coretemp` / `k10temp` / `zenpower`; NVMe / CX7 filtered out). Overview shows a CPU bar and Spark pages show a CPU row on the GPU panel when the reading is above 0°C.
+=======
+### Fixed
+- **Copy results tok/s** — clipboard text now uses one decimal like the decode-bench table (`31.5` not `31`), and TTFT uses the same mean as the table. ([#57](https://github.com/MiaAI-Lab/sparkDash/issues/57))
+>>>>>>> origin/fix/bench-copy-tps-rounding
 
 ---
 
