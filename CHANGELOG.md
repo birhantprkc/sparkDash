@@ -9,6 +9,9 @@ Format: version sections are listed newest first.
 
 ## [Unreleased]
 
+### Fixed
+- **SGLang log spam** — probe current `/server_info` and `/model_info` first; keep the deprecated `/get_*` aliases as fallback so old servers still work. ([#52](https://github.com/MiaAI-Lab/sparkDash/issues/52))
+
 ---
 
 ## [1.8.5] — 2026-08-28
